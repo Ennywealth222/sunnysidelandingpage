@@ -1,0 +1,46 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(234, 231, 231);
+}
+
+section .div {
+    background-color: #fff;
+    height: 41vh;
+    width: 31vw;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+section .div img {
+    height: 50%;
+    width: 95%;
+    padding: 10px 10px 0;
+    border-radius: 13px;
+}
+
+.first .div {
+    margin: 7px 3px 15px 7px;
+}
+
+.second .div {
+    margin: 0 3px 15px 7px;
+}
+
+.third .div {
+    margin: 0 3px 15px 7px;
+}
+
+section .div p {
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+section .div button {
+    background-color: rgb(71, 71, 253);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
