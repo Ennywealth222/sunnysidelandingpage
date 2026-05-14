@@ -1,0 +1,611 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.container .nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    font-size: 13px;
+    padding-right: 30px;
+}
+
+.container .nav .text {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Barlow";
+    font-weight: 300;
+}
+
+.container .nav span {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+.container .nav .hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.container .img {
+    padding-left: 30px;
+}
+
+.container .div {
+    text-align: center;
+}
+
+.container .div h1 {
+    margin-top: 80px;
+    color: #fff;
+    font-size: 50px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+.container .div img {
+    margin-top: 50px;
+}
+
+.container .nav span:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.container .nav .hover:hover {
+    color: #fff;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section .first {
+    padding: 110px;
+}
+
+section .first h1 {
+    margin-bottom: 20px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+
+section .first p {
+    margin-bottom: 40px;
+    color: hsl(213, 9%, 39%);
+    line-height: 25px;
+    font-family: "Barlow";
+    font-size: 10px;
+    /* font-weight: 405; */
+}
+
+section .first strong {
+    border-bottom: 4px solid hsl(51, 100%, 49%);
+    font-size: 10px;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+}
+
+section .first .learn {
+    text-decoration: none;
+    color: #000;
+}
+
+section .second {
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 80vh;
+}
+
+section .third {
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 80vh;
+}
+
+section .fourth {
+    padding: 100px 80px;
+}
+
+section .fourth h1 {
+    margin-bottom: 20px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+
+section .fourth p {
+    margin-bottom: 20px;
+    color: hsl(213, 9%, 39%);
+    line-height: 25px;
+    font-family: "Barlow";
+    font-size: 12px;
+}
+
+section .fourth strong {
+    border-bottom: 4px solid hsl(7, 99%, 70%);
+    font-size: 10px;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+}
+
+section .fourth .learn {
+    text-decoration: none;
+    color: #000;
+}
+
+
+section .fifth {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 80vh;
+}
+
+section .fifth .fifth-child,
+section .sixth .sixth-child {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 50vh;
+
+}
+
+section .sixth {
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 80vh;
+}
+
+section .fifth h2 {
+    padding-bottom: 20px;
+    font-family: "Fraunces";
+    color: hsl(167, 40%, 24%);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+section .sixth h2 {
+    padding-bottom: 20px;
+    font-family: "Fraunces";
+    color: hsl(198, 62%, 26%);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+section .fifth p {
+    color: hsl(167, 40%, 24%);
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section .sixth p {
+    color: hsl(198, 62%, 26%);
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main {
+    padding: 50px 50px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    color: hsl(213, 9%, 39%);
+    letter-spacing: 10px;
+}
+
+main .flex-box {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+main .flex-box img {
+    width: 40%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+main .flex-box .first1 {
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: hsl(212, 27%, 19%);
+}
+
+main .flex-box .second2 {
+    margin-top: 20px;
+    font-weight: 400;
+    color: hsl(210, 4%, 67%);
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+article .first1 {
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 60vh;
+}
+
+article .second2 {
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 60vh;
+}
+
+article .third3 {
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 60vh;
+}
+
+article .fourth4 {
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 60vh;
+}
+
+footer {
+    background-color: hsl(167, 55%, 65%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: hsl(167, 34%, 41%);
+    font-family: "Barlow";
+    font-size: 12px;
+}
+
+footer ul a:hover {
+    color: #fff;
+}
+
+footer .footer-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer .footer-images i {
+    color: hsl(167, 34%, 41%);
+}
+
+footer .footer-images i:hover {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    header {
+        background-image: url(./images/mobile/image-header.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .container .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    .container .nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        list-style: none;
+        font-size: 13px;
+        padding-right: 30px;
+    }
+
+    .container .div img {
+        margin-top: 90px;
+    }
+
+    section {
+        display: block;
+    }
+
+    section .first {
+        padding: 50px 10px;
+        text-align: center;
+    }
+
+    section .first h1 {
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    section .first p {
+        margin-bottom: 40px;
+        color: hsl(213, 9%, 39%);
+        line-height: 30px;
+        font-family: "Barlow";
+        font-size: 20px;
+    }
+
+    section .first strong {
+        border-bottom: 4px solid hsl(51, 100%, 49%);
+        font-size: 25px;
+        font-weight: 700;
+        color: hsl(212, 27%, 19%);
+        font-family: "Fraunces";
+
+    }
+
+    section .first .learn {
+        text-decoration: none;
+        color: #000;
+    }
+
+    section .second {
+        background-image: url(./images/mobile/image-transform.jpg);
+        background-size: cover;
+        background-repeat: none;
+        height: 60vh;
+    }
+
+    section .third {
+        background-image: url(./images/mobile/image-stand-out.jpg);
+        background-size: cover;
+        background-repeat: none;
+        height: 60vh;
+    }
+
+    section .fourth {
+        padding: 40px 10px;
+        text-align: center;
+    }
+
+    section .fourth h1 {
+        margin-bottom: 20px;
+        font-family: "Fraunces";
+        font-size: 43px;
+        color: hsl(212, 27%, 19%);
+    }
+
+    section .fourth p {
+        margin-bottom: 40px;
+        color: hsl(213, 9%, 39%);
+        line-height: 30px;
+        font-family: "Barlow";
+        font-size: 19px;
+    }
+
+    section .fourth strong {
+        border-bottom: 4px solid hsl(7, 99%, 70%);
+        font-size: 25px;
+        font-weight: 700;
+        color: hsl(212, 27%, 19%);
+        font-family: "Fraunces";
+    }
+
+    section .fourth .learn {
+        text-decoration: none;
+        color: #000;
+
+    }
+
+
+    section .fifth {
+        background-image: url(./images/desktop/image-graphic-design.jpg);
+        background-size: cover;
+        background-repeat: none;
+        height: 80vh;
+    }
+
+    section .fifth .fifth-child,
+    section .sixth .sixth-child {
+        /* margin-top: 330px; */
+        text-align: center;
+    }
+
+    section .sixth {
+        background-image: url(./images/desktop/image-photography.jpg);
+        background-size: cover;
+        background-repeat: none;
+        height: 80vh;
+    }
+
+    section .fifth h2 {
+        padding-bottom: 20px;
+        font-family: "Fraunces";
+        color: hsl(167, 40%, 24%);
+    }
+
+    section .sixth h2 {
+        padding-bottom: 20px;
+        font-family: "Fraunces";
+        color: hsl(198, 62%, 26%);
+    }
+
+    section .fifth p {
+        color: hsl(167, 40%, 24%);
+        font-family: "Barlow";
+        font-size: 20px;
+    }
+
+    section .sixth p {
+        color: hsl(198, 62%, 26%);
+        font-family: "Barlow";
+        font-size: 20px;
+    }
+
+    main {
+        padding: 50px 50px;
+    }
+
+    main h2 {
+        text-align: center;
+        margin-bottom: 70px;
+        margin-top: 20px;
+        color: hsl(213, 9%, 39%);    
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    main .flex-box {
+        display: block;
+    }
+
+    main .flex-box img {
+        width: 40%;
+        border-radius: 100%;
+        margin-bottom: 20px;
+    }
+
+    main .flex-box .first1 {
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-weight: 500;
+        color: hsl(212, 27%, 19%);
+    }
+
+    main .flex-box .second2 {
+        margin-top: 20px;
+        font-weight: 400;
+        color: hsl(213, 9%, 39%);
+        margin-bottom: 40px;
+    }
+
+
+    article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    article .first1 {
+        background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+        background-repeat: none;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    article .second2 {
+        background-image: url(./images/mobile/image-gallery-orange.jpg);
+        background-repeat: none;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    article .third3 {
+        background-image: url(./images/mobile/image-gallery-cone.jpg);
+        background-repeat: none;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    article .fourth4 {
+        background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+        background-repeat: none;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    footer {
+        background-color: hsl(167, 55%, 65%);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    footer img {
+        margin-bottom: 20px;
+    }
+
+    footer ul {
+        list-style: none;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    footer ul a {
+        text-decoration: none;
+        color: hsl(167, 34%, 41%);
+        font-family: "Barlow";
+        font-size: 12px;
+    }
+
+    footer ul a:hover {
+        color: #fff;
+    }
+
+    footer .footer-images {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    footer .footer-images i {
+        color: hsl(167, 34%, 41%);
+    }
+
+    footer .footer-images i:hover {
+        color: white;
+    }
+}
