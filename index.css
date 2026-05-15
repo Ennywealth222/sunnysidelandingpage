@@ -20,6 +20,10 @@ header {
     padding-top: 20px;
 }
 
+.ham {
+    display: none;
+}
+
 .container .nav ul {
     display: flex;
     flex-direction: row;
@@ -99,7 +103,6 @@ section .first p {
     line-height: 25px;
     font-family: "Barlow";
     font-size: 10px;
-    /* font-weight: 405; */
 }
 
 section .first strong {
@@ -332,7 +335,7 @@ footer .footer-images i:hover {
     color: white;
 }
 
-@media (max-width: 768px) {
+@media (width <=768px) {
     header {
         background-image: url(./images/mobile/image-header.jpg);
         background-size: cover;
@@ -456,7 +459,6 @@ footer .footer-images i:hover {
 
     section .fifth .fifth-child,
     section .sixth .sixth-child {
-        /* margin-top: 330px; */
         text-align: center;
     }
 
@@ -499,7 +501,7 @@ footer .footer-images i:hover {
         text-align: center;
         margin-bottom: 70px;
         margin-top: 20px;
-        color: hsl(213, 9%, 39%);    
+        color: hsl(213, 9%, 39%);
         font-size: 15px;
         font-weight: 900;
     }
@@ -538,28 +540,28 @@ footer .footer-images i:hover {
         background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
         background-repeat: none;
         background-size: cover;
-        height: 40vh;
+        height: 60vh;
     }
 
     article .second2 {
         background-image: url(./images/mobile/image-gallery-orange.jpg);
         background-repeat: none;
         background-size: cover;
-        height: 40vh;
+        height: 60vh;
     }
 
     article .third3 {
         background-image: url(./images/mobile/image-gallery-cone.jpg);
         background-repeat: none;
         background-size: cover;
-        height: 40vh;
+        height: 60vh;
     }
 
     article .fourth4 {
         background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
         background-repeat: none;
         background-size: cover;
-        height: 40vh;
+        height: 60vh;
     }
 
     footer {
@@ -607,5 +609,103 @@ footer .footer-images i:hover {
 
     footer .footer-images i:hover {
         color: white;
+    }
+}
+
+@media (width <=500px) {
+    header {
+        background-image: url(/images/mobile/image-header.jpg);
+        height: 130vh;
+    }
+
+    .container .div img {
+        width: 90px;
+    }
+
+    .container .nav ul {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+        width: 60px;
+    }
+
+    section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section .second {
+        order: -1;
+        height: 120vh;
+    }
+
+    .container .img {
+        width: 300px;
+    }
+
+    .container .div h1 {
+        font-size: 100px;
+    }
+
+    section .first {
+        padding: 50px;
+        height: 100vh;
+    }
+
+    section .first h1 {
+        font-size: 80px;
+        margin-top: 70px;
+    }
+
+    section .third {
+        height: 120vh;
+    }
+
+    section .fourth {
+        padding: 50px;
+        height: 100vh;
+    }
+
+    section .fourth h1 {
+        font-size: 80px;
+        margin-top: 70px;
+    }
+
+    section .fifth {
+        height: 120vh;
+    }
+
+    section .sixth {
+        height: 120vh;
+    }
+
+    section .fifth .fifth-child,
+    section .sixth .sixth-child {
+        top: 90vh;
+    }
+
+    section .fifth h2 {
+        font-size: 60px;
+    }
+
+    section .sixth h2 {
+        font-size: 60px;
+    }
+
+    main h2 {
+        font-size: 50px;
+    }
+
+    main .flex-box img {
+        width: 190px;
+    }
+
+    footer .together img {
+        width: 200px;
+    }
+
+    footer .together ul {
+        font-weight: 700;
     }
 }
