@@ -335,282 +335,6 @@ footer .footer-images i:hover {
     color: white;
 }
 
-@media (width <=768px) {
-    header {
-        background-image: url(./images/mobile/image-header.jpg);
-        background-size: cover;
-        background-position: center;
-
-    }
-
-    .container .nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 20px;
-    }
-
-    .container .nav ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 30px;
-        list-style: none;
-        font-size: 13px;
-        padding-right: 30px;
-    }
-
-    .container .div img {
-        margin-top: 90px;
-    }
-
-    section {
-        display: block;
-    }
-
-    section .first {
-        padding: 50px 10px;
-        text-align: center;
-    }
-
-    section .first h1 {
-        font-weight: 900;
-        font-size: 50px;
-    }
-
-    section .first p {
-        margin-bottom: 40px;
-        color: hsl(213, 9%, 39%);
-        line-height: 30px;
-        font-family: "Barlow";
-        font-size: 20px;
-    }
-
-    section .first strong {
-        border-bottom: 4px solid hsl(51, 100%, 49%);
-        font-size: 25px;
-        font-weight: 700;
-        color: hsl(212, 27%, 19%);
-        font-family: "Fraunces";
-
-    }
-
-    section .first .learn {
-        text-decoration: none;
-        color: #000;
-    }
-
-    section .second {
-        background-image: url(./images/mobile/image-transform.jpg);
-        background-size: cover;
-        background-repeat: none;
-        height: 60vh;
-    }
-
-    section .third {
-        background-image: url(./images/mobile/image-stand-out.jpg);
-        background-size: cover;
-        background-repeat: none;
-        height: 60vh;
-    }
-
-    section .fourth {
-        padding: 40px 10px;
-        text-align: center;
-    }
-
-    section .fourth h1 {
-        margin-bottom: 20px;
-        font-family: "Fraunces";
-        font-size: 43px;
-        color: hsl(212, 27%, 19%);
-    }
-
-    section .fourth p {
-        margin-bottom: 40px;
-        color: hsl(213, 9%, 39%);
-        line-height: 30px;
-        font-family: "Barlow";
-        font-size: 19px;
-    }
-
-    section .fourth strong {
-        border-bottom: 4px solid hsl(7, 99%, 70%);
-        font-size: 25px;
-        font-weight: 700;
-        color: hsl(212, 27%, 19%);
-        font-family: "Fraunces";
-    }
-
-    section .fourth .learn {
-        text-decoration: none;
-        color: #000;
-
-    }
-
-
-    section .fifth {
-        background-image: url(./images/desktop/image-graphic-design.jpg);
-        background-size: cover;
-        background-repeat: none;
-        height: 80vh;
-    }
-
-    section .fifth .fifth-child,
-    section .sixth .sixth-child {
-        text-align: center;
-    }
-
-    section .sixth {
-        background-image: url(./images/desktop/image-photography.jpg);
-        background-size: cover;
-        background-repeat: none;
-        height: 80vh;
-    }
-
-    section .fifth h2 {
-        padding-bottom: 20px;
-        font-family: "Fraunces";
-        color: hsl(167, 40%, 24%);
-    }
-
-    section .sixth h2 {
-        padding-bottom: 20px;
-        font-family: "Fraunces";
-        color: hsl(198, 62%, 26%);
-    }
-
-    section .fifth p {
-        color: hsl(167, 40%, 24%);
-        font-family: "Barlow";
-        font-size: 20px;
-    }
-
-    section .sixth p {
-        color: hsl(198, 62%, 26%);
-        font-family: "Barlow";
-        font-size: 20px;
-    }
-
-    main {
-        padding: 50px 50px;
-    }
-
-    main h2 {
-        text-align: center;
-        margin-bottom: 70px;
-        margin-top: 20px;
-        color: hsl(213, 9%, 39%);
-        font-size: 15px;
-        font-weight: 900;
-    }
-
-    main .flex-box {
-        display: block;
-    }
-
-    main .flex-box img {
-        width: 40%;
-        border-radius: 100%;
-        margin-bottom: 20px;
-    }
-
-    main .flex-box .first1 {
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-weight: 500;
-        color: hsl(212, 27%, 19%);
-    }
-
-    main .flex-box .second2 {
-        margin-top: 20px;
-        font-weight: 400;
-        color: hsl(213, 9%, 39%);
-        margin-bottom: 40px;
-    }
-
-
-    article {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    article .first1 {
-        background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
-        background-repeat: none;
-        background-size: cover;
-        height: 60vh;
-    }
-
-    article .second2 {
-        background-image: url(./images/mobile/image-gallery-orange.jpg);
-        background-repeat: none;
-        background-size: cover;
-        height: 60vh;
-    }
-
-    article .third3 {
-        background-image: url(./images/mobile/image-gallery-cone.jpg);
-        background-repeat: none;
-        background-size: cover;
-        height: 60vh;
-    }
-
-    article .fourth4 {
-        background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
-        background-repeat: none;
-        background-size: cover;
-        height: 60vh;
-    }
-
-    footer {
-        background-color: hsl(167, 55%, 65%);
-        text-align: center;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 50px 0;
-    }
-
-    footer img {
-        margin-bottom: 20px;
-    }
-
-    footer ul {
-        list-style: none;
-        margin-bottom: 50px;
-        display: flex;
-        align-items: center;
-        gap: 30px;
-    }
-
-    footer ul a {
-        text-decoration: none;
-        color: hsl(167, 34%, 41%);
-        font-family: "Barlow";
-        font-size: 12px;
-    }
-
-    footer ul a:hover {
-        color: #fff;
-    }
-
-    footer .footer-images {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        cursor: pointer;
-    }
-
-    footer .footer-images i {
-        color: hsl(167, 34%, 41%);
-    }
-
-    footer .footer-images i:hover {
-        color: white;
-    }
-}
 
 @media (width <=500px) {
     header {
@@ -643,11 +367,11 @@ footer .footer-images i:hover {
     .container .img {
         width: 300px;
     }
-
+    
     .container .div h1 {
         font-size: 100px;
     }
-
+    
     section .first {
         padding: 50px;
         height: 100vh;
@@ -666,7 +390,7 @@ footer .footer-images i:hover {
         padding: 50px;
         height: 100vh;
     }
-
+    
     section .fourth h1 {
         font-size: 80px;
         margin-top: 70px;
@@ -709,3 +433,279 @@ footer .footer-images i:hover {
         font-weight: 700;
     }
 }
+    @media (width <=768px) {
+        header {
+            background-image: url(./images/mobile/image-header.jpg);
+            background-size: cover;
+            background-position: center;
+    
+        }
+    
+        .container .nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+    
+        .container .nav ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            list-style: none;
+            font-size: 13px;
+            padding-right: 30px;
+        }
+    
+        .container .div img {
+            margin-top: 90px;
+        }
+    
+        section {
+            display: block;
+        }
+    
+        section .first {
+            padding: 50px 10px;
+            text-align: center;
+        }
+    
+        section .first h1 {
+            font-weight: 900;
+            font-size: 50px;
+        }
+    
+        section .first p {
+            margin-bottom: 40px;
+            color: hsl(213, 9%, 39%);
+            line-height: 30px;
+            font-family: "Barlow";
+            font-size: 20px;
+        }
+    
+        section .first strong {
+            border-bottom: 4px solid hsl(51, 100%, 49%);
+            font-size: 25px;
+            font-weight: 700;
+            color: hsl(212, 27%, 19%);
+            font-family: "Fraunces";
+    
+        }
+    
+        section .first .learn {
+            text-decoration: none;
+            color: #000;
+        }
+    
+        section .second {
+            background-image: url(./images/mobile/image-transform.jpg);
+            background-size: cover;
+            background-repeat: none;
+            height: 60vh;
+        }
+    
+        section .third {
+            background-image: url(./images/mobile/image-stand-out.jpg);
+            background-size: cover;
+            background-repeat: none;
+            height: 60vh;
+        }
+    
+        section .fourth {
+            padding: 40px 10px;
+            text-align: center;
+        }
+    
+        section .fourth h1 {
+            margin-bottom: 20px;
+            font-family: "Fraunces";
+            font-size: 43px;
+            color: hsl(212, 27%, 19%);
+        }
+    
+        section .fourth p {
+            margin-bottom: 40px;
+            color: hsl(213, 9%, 39%);
+            line-height: 30px;
+            font-family: "Barlow";
+            font-size: 19px;
+        }
+    
+        section .fourth strong {
+            border-bottom: 4px solid hsl(7, 99%, 70%);
+            font-size: 25px;
+            font-weight: 700;
+            color: hsl(212, 27%, 19%);
+            font-family: "Fraunces";
+        }
+    
+        section .fourth .learn {
+            text-decoration: none;
+            color: #000;
+    
+        }
+    
+    
+        section .fifth {
+            background-image: url(./images/desktop/image-graphic-design.jpg);
+            background-size: cover;
+            background-repeat: none;
+            height: 80vh;
+        }
+    
+        section .fifth .fifth-child,
+        section .sixth .sixth-child {
+            text-align: center;
+        }
+    
+        section .sixth {
+            background-image: url(./images/desktop/image-photography.jpg);
+            background-size: cover;
+            background-repeat: none;
+            height: 80vh;
+        }
+    
+        section .fifth h2 {
+            padding-bottom: 20px;
+            font-family: "Fraunces";
+            color: hsl(167, 40%, 24%);
+        }
+    
+        section .sixth h2 {
+            padding-bottom: 20px;
+            font-family: "Fraunces";
+            color: hsl(198, 62%, 26%);
+        }
+    
+        section .fifth p {
+            color: hsl(167, 40%, 24%);
+            font-family: "Barlow";
+            font-size: 20px;
+        }
+    
+        section .sixth p {
+            color: hsl(198, 62%, 26%);
+            font-family: "Barlow";
+            font-size: 20px;
+        }
+    
+        main {
+            padding: 50px 50px;
+        }
+    
+        main h2 {
+            text-align: center;
+            margin-bottom: 70px;
+            margin-top: 20px;
+            color: hsl(213, 9%, 39%);
+            font-size: 15px;
+            font-weight: 900;
+        }
+    
+        main .flex-box {
+            display: block;
+        }
+    
+        main .flex-box img {
+            width: 40%;
+            border-radius: 100%;
+            margin-bottom: 20px;
+        }
+    
+        main .flex-box .first1 {
+            margin-bottom: 20px;
+            line-height: 25px;
+            font-weight: 500;
+            color: hsl(212, 27%, 19%);
+        }
+    
+        main .flex-box .second2 {
+            margin-top: 20px;
+            font-weight: 400;
+            color: hsl(213, 9%, 39%);
+            margin-bottom: 40px;
+        }
+    
+    
+        article {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        article .first1 {
+            background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+            background-repeat: none;
+            background-size: cover;
+            height: 60vh;
+        }
+    
+        article .second2 {
+            background-image: url(./images/mobile/image-gallery-orange.jpg);
+            background-repeat: none;
+            background-size: cover;
+            height: 60vh;
+        }
+    
+        article .third3 {
+            background-image: url(./images/mobile/image-gallery-cone.jpg);
+            background-repeat: none;
+            background-size: cover;
+            height: 60vh;
+        }
+    
+        article .fourth4 {
+            background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+            background-repeat: none;
+            background-size: cover;
+            height: 60vh;
+        }
+    
+        footer {
+            background-color: hsl(167, 55%, 65%);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px 0;
+        }
+    
+        footer img {
+            margin-bottom: 20px;
+        }
+    
+        footer ul {
+            list-style: none;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+    
+        footer ul a {
+            text-decoration: none;
+            color: hsl(167, 34%, 41%);
+            font-family: "Barlow";
+            font-size: 12px;
+        }
+    
+        footer ul a:hover {
+            color: #fff;
+        }
+    
+        footer .footer-images {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+        }
+    
+        footer .footer-images i {
+            color: hsl(167, 34%, 41%);
+        }
+    
+        footer .footer-images i:hover {
+            color: white;
+        }
+    }
